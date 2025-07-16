@@ -130,24 +130,27 @@ button:hover{
     top: 10px;
     font-size: 14px;
 }
-@media(max-width:768px){
+@media(max-width:650px){
     header,main,footer{
-        width: 400px;
+        width: 370px;
     }
     footer{
         height: 450px;
     }
     button{
-        width: 75px;
+        width: 65px;
         height: 65px;
         margin: 8px;
     }
     .equal,.reset{
-        width: 170px;
-        margin: 8px;
+        width: 150px;
+        margin: 6px;
     }
     header{
-        gap: 210px;
+        gap: 170px;
+    }
+    .DEL,.reset,.equal{
+        font-size: 25px;
     }
     h1{
         font-size: 42px;
