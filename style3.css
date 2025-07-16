@@ -130,7 +130,7 @@ button:hover{
     top: 10px;
     font-size: 14px;
 }
-@media(max-width:650px){
+@media(max-width:750px){
     header,main,footer{
         width: 370px;
     }
