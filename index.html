@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link id="theme-style" rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+<title>Frontend Mentor | Calculator app</title>
+</head>
+<body>
+<div class="container">
+    <header>
+    <h1>calc</h1>
+    <div class="theme">
+      <p id="theme">THEME</p>
+      <div class="colors">
+        <p class="num1" onclick="change('style.css')">1</p>
+        <p class="num2" onclick="change('style2.css')">2</p>
+        <p class="num3" onclick="change('style3.css')">3</p>
+        <div class="trager"></div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="screen"><span id="output"></span></div>
+  </main>
+  <footer>
+    <div class="row">
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button class="DEL">DEL</button>
+    </div>
+    <div class="row_1">
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+      <button>+</button>
+    </div>
+    <div class="row_2">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>-</button>
+    </div>
+    <div class="row_3">
+      <button>.</button>
+      <button>0</button>
+      <button>/</button>
+      <button>x</button>
+    </div>
+    <div class="row_4">
+      <button class="reset">RESET</button>
+      <button class="equal">=</button>
+    </div>
+  </footer>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
